@@ -7,7 +7,7 @@ const Card = props => {
         <li className={`card ${props.className}`} style={props.style}>
             {props.children}
         </li>
-    );
+    ); 
 };
 
 export default Card;
