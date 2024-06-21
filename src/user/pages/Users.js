@@ -6,8 +6,14 @@ const Users = () => {
         {
         id: 'u1', 
         name: 'Mayque', 
-        image: 'https://media.licdn.com/dms/image/D4D03AQFYiSkQzLVDjQ/profile-displayphoto-shrink_200_200/0/1680290466908?e=2147483647&v=beta&t=v9SEvd2t0f9QSGBO3t9Rx1IK5ePOQI4bAMDWtdKoNkY', 
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lyt81GNq5rMgriq91ABvsnVnxZ5KHOKhNA&s', 
         places: 1
+        },
+        {
+        id: 'u2', 
+        name: 'Thomas', 
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR4EkVbzlo__6nUlW8ZYfUxCe_HGjFmh3nEA&s',
+        places: 2
         }
 ];
     return <UsersList items={USERS}/>;
