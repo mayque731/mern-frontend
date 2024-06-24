@@ -1,6 +1,7 @@
 import React from "react";
 import './Map.css'
 const Map = props => {
+    return <div className="map">Map!</div>
     // const mapRef = useRef();
     // const {center,zoom, mapId} = props;
     // useEffect(() => {
